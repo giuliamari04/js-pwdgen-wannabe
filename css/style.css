@@ -1,0 +1,68 @@
+/* non una cosa seria ma giusto per abbellire un po' la pagina */
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 24%, rgba(11,5,255,1) 84%);
+}
+
+.contenitore{
+    background-color: blue ;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px 5px grey;
+}
+
+input{
+    margin: 5px;
+    padding: 3px;
+    background-color: rgb(149, 179, 224);
+    color:blue;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+input::placeholder{
+    color: rgb(71, 71, 71);
+    padding-left: 10px;
+}
+
+input:hover{
+    color: rgb(36, 35, 35);
+    background-color: aliceblue;
+    transform:scale(1.1)
+}
+
+button{
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+button:hover{
+    background-color: rgb(74, 74, 243);
+    color: white;
+}
+
+
+#output{
+    background-color: aliceblue;
+    color: black;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
