@@ -21,9 +21,6 @@
 
 // versione carina
 
-document.addEventListener("DOMContentLoaded", function () {
-
-
     let Nome = document.getElementById("nome");
     let Cognome = document.getElementById("cognome");
     let Colore = document.getElementById("colore");
@@ -45,4 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     
-    });
+  
